@@ -1,13 +1,14 @@
 {
-  "routes": [
-    { "src": "/(.*)", "dest": "/bloom.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/bloom.html" }
   ],
   "headers": [
     {
-      "source": "/(.*).(js|css|jpg|png|mp4)",
+      "source": "/(.*).(js|css|jpg|png|mp4|webp|svg)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     }
   ]
 }
+
