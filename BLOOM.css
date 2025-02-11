@@ -160,7 +160,7 @@ header {
   text-align: center;
   margin: 2px 0;
   text-transform: uppercase;
-  background: url("./mistforest.jpg"); /* Adjust if image is in a different folder */
+  background: url("assets/mistforest.jpg"); /* Adjust if image is in a different folder */
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -596,7 +596,7 @@ header {
   width: 200px;
   margin: 2px 0;
   text-transform: uppercase;
-  background: url("./mistforest.jpg"); /* Adjust if image is in a different folder */
+  background: url("assets/mistforest.jpg"); /* Adjust if image is in a different folder */
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
