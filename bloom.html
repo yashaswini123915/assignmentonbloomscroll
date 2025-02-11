@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+    <link rel="stylesheet" href="BLOOM.css">
+    <title>Bloom</title>
+</head>
+
+<body>
+
+    <!--------------for the 3d effect-->
+    <div class="container">
+        <header>
+            <div class="head-left">
+                <h1>Bloom</h1>
+            </div>
+            <div class="head-right">
+                <p><a href="#">ABOUT</a></p>
+                <p><a href="#">SERVICES</a></p>
+                <p><a href="#">CONTACT</a></p>
+            </div>
+        </header>
+        <section class="hero-section">
+            <div class="hero-vid">
+                <video loop autoplay muted plays-inline class="hero-video">
+                    <source src="assets\entry.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-info">
+                <h1>Bloom Essence</h1>
+                <p>"Bloom with grace, grow with purpose, and let your dreams unfold like petals in the sun."</p>
+                <button>let's grow</button>
+                <h1 class="gaming-text"> Haven</h1>
+            </div>
+        </section>
+
+    </div>
+    <section class="about-section">
+        <p>welcome to Connectivity world</p>
+        <h1>In every walk with nature</h1>
+        <div class="about-video">
+            <video loop autoplay muted plays-inline>
+                <source src="assets\mistforest.mp4" type="video/mp4">
+            </video>
+            <p class="about-text">Nature is not a place to visit. It is home. When we connect with it, we reconnect with
+                ourselves</p>
+        </div>
+    </section>
+    <section class="card-image">
+        <h1>Bloom Beauty - Where Radiance Blossoms</h1>
+        <div class="card">
+            <img src="assets\bird.jpg" alt="Image" width="100%" height="100%">
+        </div>
+        <p>"Beauty is not just about appearance; it's about confidence, grace, and self-love. At Bloom Beauty, we
+            celebratethe essence of natural elegance, inspiring you to shine from within. Embrace every moment with
+            confidence,because you are already beautifully blooming."</p>
+    </section>
+    <div class="slider">
+
+        <section class="slide-container">
+            <div class="number-box left-box">1</div>
+            <div class="horizontal-line line-left"></div>
+            <div class="slide-box left">
+                <img src="assets\tree4.jpg" alt="Data Visualization">
+            </div>
+            <p class="description">EcoHarmony Bliss – Finding joy in nature’s balance</p>
+            <div class="horizontal-line line-right"></div>
+            <div class="number-box right-box">1</div>
+            <div class="line"></div>
+        </section>
+
+        <section class="slide-container">
+            <div class="number-box left-box">2</div>
+            <div class="horizontal-line line-left"></div>
+            <div class="slide-box right">
+                <img src="assets\tree1.jpg" alt="Annual Roadmap">
+            </div>
+            <p class="description">Serene Earthlink – Connecting souls through nature’s embrace.
+            </p>
+            <div class="horizontal-line line-right"></div>
+            <div class="number-box right-box">2</div>
+            <div class="line"></div>
+        </section>
+        <section class="slide-container">
+            <div class="number-box left-box">3</div>
+            <div class="horizontal-line line-left"></div>
+
+            <div class="slide-box right">
+                <img src="assets\tree2.jpg" alt="Annual Roadmap">
+            </div>
+            <p class="description">FlourishGreen Spirit – Happiness grows where nature thrives..</p>
+            <div class="horizontal-line line-right"></div>
+            <div class="number-box right-box">3</div>
+            <div class="line"></div>
+        </section>
+        <section class="slide-container">
+            <div class="number-box left-box">4</div>
+            <div class="horizontal-line line-left"></div>
+            <div class="slide-box right">
+                <img src="assets\tree3.jpg" alt="Annual Roadmap">
+            </div>
+            <p class="description">NatureFusion Joy – Harmony blooms in natural bonds.
+            </p>
+            <div class="horizontal-line line-right"></div>
+            <div class="number-box right-box">4</div>
+            <div class="line"></div>
+            <div class="horizontal-line line-center"></div>
+        </section>
+    </div>
+    <section class="sticky">
+        <div class="sticky-header">
+            <h1> Bloom - Embracing the essence of nature, where forest life thrives in harmony.</h1>
+        </div>
+
+        <!-- ✅ Corrected moving-card structure -->
+        <div class="moving-card">
+            <div class="moving-card-img"><img class="mcimg" src="assets/floating-image1.jpg" alt="no image"></div>
+            <div class="moving-card-content">
+                <div class="moving-card-content-title">
+                    <h2>The Healing Touch of Nature</h2>
+                    <div class="moving-card-content-description">
+                        <p>Nature has an incredible ability to heal and rejuvenate. Whether it's the soothing sound of
+                            waves, the rustling of leaves, or the chirping of birds, spending time outdoors refreshes
+                            the mind and body. It helps reduce stress and brings inner peace.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="moving-card">
+            <div class="moving-card-img"><img class="mcimg" src="assets/floating-image2.jpg" alt="no image"></div>
+            <div class="moving-card-content">
+                <div class="moving-card-content-title">
+                    <h2>A Breath of Fresh Air</h2>
+                    <div class="moving-card-content-description">
+                        <p>Surrounding yourself with greenery improves both physical and mental health. Fresh air from
+                            trees and plants boosts energy, enhances mood, and strengthens immunity. A simple walk in a
+                            park can do wonders for your well-being.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="moving-card">
+            <div class="moving-card-img"><img class="mcimg" src="assets/floating-image3.jpg" alt="no image"></div>
+            <div class="moving-card-content">
+                <div class="moving-card-content-title">
+                    <h2>The Beauty of Sunrises and Sunsets</h2>
+                    <div class="moving-card-content-description">
+                        <p>Every sunrise is a new beginning, and every sunset is a moment of gratitude. The golden hues
+                            of dawn bring hope, while the soft shades of dusk remind us to cherish the day's blessings.
+                            Watching these natural wonders fills the heart with positivity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="moving-card">
+            <div class="moving-card-img"><img class="mcimg" src="assets/floating-image4.jpg" alt="no image"></div>
+            <div class="moving-card-content">
+                <div class="moving-card-content-title">
+                    <h2> Nature’s Endless Inspiration</h2>
+                    <div class="moving-card-content-description">
+                        <p>The vast sky, flowing rivers, and towering mountains remind us that there are no limits to
+                            growth and possibilities. Nature encourages us to dream big, stay strong, and move forward
+                            with confidence, embracing life's beauty at every step.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="moving-card">
+            <div class="moving-card-img"><img class="mcimg" src="assets/floating-image5.jpg" alt="no image"></div>
+            <div class="moving-card-content">
+                <div class="moving-card-content-title">
+                    <h2> Lessons from the Changing Seasons</h2>
+                    <div class="moving-card-content-description">
+                        <p>Nature teaches us resilience through its changing seasons. Just like spring follows winter,
+                            tough times in life are always followed by better days. Observing nature’s cycle reminds us
+                            to embrace change with optimism.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="moving-card">
+            <div class="moving-card-img"><img class="mcimg" src="assets/floating-image6.jpg" alt="no image"></div>
+            <div class="moving-card-content">
+                <div class="moving-card-content-title">
+                    <h2> The Joy of Coexisting with Nature</h2>
+                    <div class="moving-card-content-description">
+                        <p>From the tiniest insect to the tallest tree, every element of nature has its own role. This
+                            interconnectedness inspires us to live in harmony, appreciate diversity, and respect all
+                            forms of life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    </div>
+    <!-- Spline Background -->
+    <div class="spline-container">
+        <iframe src="https://my.spline.design/dotwaves-f12a904631eb3ec3172cdd10d4d3098b/" frameborder="0">
+        </iframe>
+    </div>
+
+    <section class="rotating-images">
+        <div class="radio-container">
+            <div class="radio-icon">
+                <div class="radio-imgbx" style="--i:1;">
+                    <img src="assets/radio-image1.jpg" alt="noimage">
+                </div>
+                <div class="radio-imgbx" style="--i:2;">
+                    <img src="assets/radio-image2.jpg" alt="noimage">
+                </div>
+                <div class="radio-imgbx" style="--i:3;">
+                    <img src="assets/radio-image3.jpg" alt="noimage">
+                </div>
+                <div class="radio-imgbx" style="--i:4;">
+                    <img src="assets/radio-image4.jpg" alt="noimage">
+                </div>
+                <div class="radio-imgbx" style="--i:5;">
+                    <img src="assets/radio-image5.jpg" alt="noimage">
+                </div>
+                <div class="radio-imgbx" style="--i:6;">
+                    <img src="assets/radio-image6.jpg" alt="noimage">
+                </div>
+                <div class="radio-imgbx" style="--i:7;">
+                    <img src="assets/radio-image7.jpg" alt="noimage">
+                </div>
+                <div class="radio-imgbx" style="--i:8;">
+                    <img src="assets/radio-image8.jpg" alt="noimage">
+                </div>
+            </div>
+            <div class="radio-image-content">
+                <p>Like a flower, bloom at your own pace—embracing the light, weathering the storms, and unfolding
+                    into
+                    the beauty you were always meant to be</p>
+            </div>
+        </div>
+
+    </section>
+    </div>
+    <section class="footeraura">
+        <!-- Aura Effect -->
+        <div class="aura-container">
+            <div class="aura"></div>
+        </div>
+    </section>
+    <div class=" thanks">
+        <h1 class="hello">LETS<br> WORK <br> TOGETHER<br>
+            BLOOM TOGETHER <br> WITH SMILE, THANKYOU.</h1>
+    </div>
+    <script src="bloom.js"></script>
+
+
+
+
+</body>
+
+</html>
